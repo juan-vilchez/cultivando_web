@@ -14,7 +14,7 @@ export default function FooterContact() {
                   height={150}
                 />
           
-          <h2 className="text-xl font-semibold mb-4">Comunícate con Nosotros</h2>
+          <h2 className="text-xl font-semibold mt-4 mb-4">Comunícate con Nosotros</h2>
           <p>
             <a href="tel:014801072" className="text-blue-500 hover:underline">989621305</a>
           </p>
@@ -42,7 +42,7 @@ export default function FooterContact() {
             <a href="https://maps.app.goo.gl/TbD2oAQDdCB8ehN4A" target="_blank" rel="noopener noreferrer" className="md:hidden block text-blue-500 hover:underline">
               Ver en Google Maps
             </a>
-            <p className="">Sede San Juan de Miraflores</p>
+            <p className="mt-2">Sede San Juan de Miraflores</p>
           </div>
         </div>
 
