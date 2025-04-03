@@ -10,8 +10,9 @@ export default function Header() {
 
   return (
     <header className="bg-gray-100 pt-0 p-4">
+      {/* Notificaciín extra para contactos */}
       <div className="bg-orange-200 -mx-4 px-4 py-2 text-gray-800">
-        Sedes: Lima, Perú | Teléfono: +51 123 456 789 | Email: info@cultivandoweb.com
+        Sedes: San Juan de Miraflores - Lima | Teléfono: 989 621 305 | Email: cultivando02@gmail.com
       </div>
 
       <div className="flex justify-between items-center pt-4">
@@ -35,9 +36,9 @@ export default function Header() {
           <nav className={`space-x-4 ${isMenuOpen ? 'flex flex-col' : 'hidden'} md:flex md:space-x-4 md:flex-row`}>
             <Link href="/" className="text-gray-800 hover:text-blue-500 border-b border-gray-300 pb-2 md:border-b-0 md:pb-0">Inicio</Link>
             <Link href="/nosotros" className="text-gray-800 hover:text-blue-500 border-b border-gray-300 pb-2 md:border-b-0 md:pb-0">Nosotros</Link>
-            <Link href="/equipo" className="text-gray-800 hover:text-blue-500 border-b border-gray-300 pb-2 md:border-b-0 md:pb-0">Equipo</Link>
             <Link href="/servicios" className="text-gray-800 hover:text-blue-500 border-b border-gray-300 pb-2 md:border-b-0 md:pb-0">Servicios</Link>
-            <Link href="/formacion" className="text-gray-800 hover:text-blue-500 border-b border-gray-300 pb-2 md:border-b-0 md:pb-0">Formación</Link>
+            <Link href="/equipo" className="text-gray-800 hover:text-blue-500 border-b border-gray-300 pb-2 md:border-b-0 md:pb-0">Equipo</Link>
+            {/* <Link href="/formacion" className="text-gray-800 hover:text-blue-500 border-b border-gray-300 pb-2 md:border-b-0 md:pb-0">Formación</Link> */}
             <Link href="/contacto" className="text-gray-800 hover:text-blue-500 border-b border-gray-300 pb-2 md:border-b-0 md:pb-0">Contacto</Link>
           </nav>
         </div>
