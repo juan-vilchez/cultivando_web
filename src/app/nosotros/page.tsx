@@ -33,25 +33,22 @@ export default function NosotrosPage() {
           <div className="md:w-1/2">
             <Image
               src="/images/historia.jpg"
-              alt="Historia del centro"
+              alt="quienes somos imagen"
               width={600}
               height={400}
               className="rounded-lg shadow-xl"
             />
           </div>
           <div className="md:w-1/2">
-            <h2 className="text-3xl font-bold text-blue-800 mb-6">Nuestra Historia</h2>
+            <h2 className="text-3xl font-bold text-blue-800 mb-6">Quiénes Somos</h2>
             <p className="text-lg mb-4">
-              Fundado en 2013, el Centro de Terapias Integrales nació con la misión de brindar atención 
-              especializada en terapia ocupacional y psicológica a la comunidad de Lima.
+            En nuestro Centro de Terapia Infantil, nos dedicamos con pasión a proporcionar una atención integral y altamente especializada a niños de 3 a 12 años. Comprendemos las diversas necesidades de cada niño y estamos preparados para trabajar con aquellos que presentan condiciones como autismo, síndrome de Down, TDAH, entre otras.
             </p>
             <p className="text-lg mb-4">
-              Lo que comenzó como un pequeño consultorio hoy es un centro multidisciplinario reconocido 
-              por su enfoque humano y profesional.
+            Nuestro equipo es nuestro mayor valor. Está compuesto por profesionales altamente calificados y colegiados, quienes han egresado de prestigiosas universidades del país, incluyendo Cayetano Heredia, San Marcos, Científica del Sur y UPC. Su sólida formación académica y su amplia experiencia nos permiten garantizar una atención de calidad y profundamente personalizada para cada niño que confía en nosotros.
             </p>
             <p className="text-lg">
-              Hemos atendido a más de 2,500 pacientes y formado alianzas con las principales instituciones 
-              educativas y de salud de la región.
+            En nuestro centro, creemos en un enfoque individualizado que reconoce las fortalezas y desafíos únicos de cada niño. Trabajamos en estrecha colaboración con las familias para crear un plan de intervención que promueva su desarrollo integral y bienestar.
             </p>
           </div>
         </div>
@@ -60,7 +57,7 @@ export default function NosotrosPage() {
     
 
       {/* Nuestra Filosofía */}
-      <section className="py-16 px-4 max-w-6xl mx-auto">
+      {/* <section className="py-16 px-4 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-blue-800 mb-12">Nuestra Filosofía</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -82,10 +79,10 @@ export default function NosotrosPage() {
             <p>Nuestros especialistas colaboran para ofrecer la mejor solución a cada caso.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Instalaciones */}
-      <section className="py-16 bg-gray-100">
+      {/* <section className="py-16 bg-gray-100">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-blue-800 mb-12">Nuestras Instalaciones</h2>
           
@@ -118,7 +115,7 @@ export default function NosotrosPage() {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
 
     <FooterContact/>

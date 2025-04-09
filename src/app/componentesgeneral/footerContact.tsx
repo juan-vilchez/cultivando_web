@@ -16,13 +16,13 @@ export default function FooterContact() {
           
           <h2 className="text-xl font-semibold mt-4 mb-4">Comunícate con Nosotros</h2>
           <p>
-            <a href="tel:014801072" className="text-blue-500 hover:underline">989621305</a>
+            <a href="tel:014801072" className="text-gray-800 hover:underline">989621305</a>
           </p>
           <p>
-            <a href="mailto:cultivando02@gmail.com" className="text-blue-500 hover:underline">cultivando02@gmail.com</a>
+            <a href="mailto:cultivando02@gmail.com" className="text-gray-800 hover:underline">cultivando02@gmail.com</a>
           </p>
           <p>
-            <a href="www.cultivando.pe" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">www.cultivando.pe</a>
+            <a href="www.cultivando.pe" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:underline">www.cultivando.pe</a>
           </p>
         </div>
 
@@ -39,7 +39,7 @@ export default function FooterContact() {
                 height={200}
               />
             </a>
-            <a href="https://maps.app.goo.gl/TbD2oAQDdCB8ehN4A" target="_blank" rel="noopener noreferrer" className="md:hidden block text-blue-500 hover:underline">
+            <a href="https://maps.app.goo.gl/TbD2oAQDdCB8ehN4A" target="_blank" rel="noopener noreferrer" className="md:hidden block text-gray-800 hover:underline">
               Ver en Google Maps
             </a>
             <p className="mt-2">Sede San Juan de Miraflores</p>
