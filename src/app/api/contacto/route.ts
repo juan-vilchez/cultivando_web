@@ -1,3 +1,34 @@
+// src/app/api/contacto/route.ts
+import { NextRequest, NextResponse } from 'next/server';
+
+export async function GET(request: NextRequest) {
+  // Por ahora no hacemos nada para la petición GET
+  return NextResponse.json({ message: 'GET request received for /api/contacto' });
+}
+
+export async function POST(request: NextRequest) {
+  // Por ahora no hacemos nada para la petición POST
+  return NextResponse.json({ message: 'POST request received for /api/contacto' });
+}
+
+// Puedes agregar más métodos HTTP si los necesitas (PUT, DELETE, etc.)
+// export async function PUT(request: NextRequest) {
+//   return NextResponse.json({ message: 'PUT request received for /api/contacto' });
+// }
+
+// export async function DELETE(request: NextRequest) {
+//   return NextResponse.json({ message: 'DELETE request received for /api/contacto' });
+// }
+
+//---------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------
+
+
+
 // app/api/contacto/route.ts
 /* import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';

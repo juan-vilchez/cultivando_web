@@ -10,7 +10,7 @@ export const metadata = {
 };
 
 export default function ContactoPage() {
-  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  /* async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
     
@@ -33,7 +33,7 @@ export default function ContactoPage() {
       alert('Ocurrió un error. Por favor inténtalo nuevamente.');
       console.error(error);
     }
-  }
+  } */
 
   return (
     <>
