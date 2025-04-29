@@ -10,6 +10,7 @@ export default function Header() {
   return (
     <main>
       {/* Notificación extra para contactos */}
+      {/* 
       <div className="bg-orange-200 -mx-4 px-4 py-2 text-gray-800 text-sm md:text-base flex items-center justify-center md:justify-start space-x-4">
         <div className="flex items-center space-x-1">
           <Image src="/images/location-pin.svg" alt="Sede" width={16} height={16} />
@@ -23,23 +24,25 @@ export default function Header() {
           <Image src="/images/envelope-lines.svg" alt="Email" width={16} height={16} />
           <span>Email: cultivando02@gmail.com</span>
         </div>
-      </div>
+      </div> 
+      */}
+
     <header className="bg-gray-100 p-2">
       
       {/* Contenedor principal con padding vertical y horizontal en escritorio */}
       <div className="flex justify-between items-center py-4 md:py-6 md:px-16 lg:px-24 xl:px-32">
         {/* Contenedor para el Logo y el Menú de Escritorio - Alineación vertical centrada */}
         <div className="flex items-center md:space-x-8">
-          <Image src="/images/cultivando-tittle-rec.png" alt="Logo" width={180} height={180} className="rounded-full mr-4" />
+          <Image src="/images/cultivando-tittle-rec.png" alt="Logo" width={180} height={180} className="rounded-full mr-16 " />
 
           {/* Menú normal para escritorio */}
           <nav className="mt-4 md:mt-0 px-4 hidden md:flex md:flex-row md:space-x-8">
-            <Link href="/" className="text-gray-800 hover:text-blue-500 py-2">Inicio</Link>
-            <Link href="/nosotros" className="text-gray-800 hover:text-blue-500 py-2">Nosotros</Link>
-            <Link href="/servicios" className="text-gray-800 hover:text-blue-500 py-2">Servicios</Link>
-            <Link href="/equipo" className="text-gray-800 hover:text-blue-500 py-2">Equipo</Link>
+            <Link href="/" className="text-gray-800 hover:text-blue-500 py-2">INICIO</Link>
+            <Link href="/servicios" className="text-gray-800 hover:text-blue-500 py-2">SERVICIOS</Link>
+            <Link href="/nosotros" className="text-gray-800 hover:text-blue-500 py-2">NOSOTROS</Link>
+            {/* <Link href="/equipo" className="text-gray-800 hover:text-blue-500 py-2">Equipo</Link> */}
             {/* <Link href="/formacion" className="text-gray-800 hover:text-blue-500 py-2">Formación</Link> */}
-            <Link href="/contacto" className="text-gray-800 hover:text-blue-500 py-2">Contacto</Link>
+            <Link href="/contacto" className="text-gray-800 hover:text-blue-500 py-2">CONTACTO</Link>
           </nav>
         </div>
 
@@ -72,12 +75,12 @@ export default function Header() {
 
       {/* Menú desplegable móvil */}
       <nav className={`md:hidden ${isMenuOpen ? 'flex flex-col space-y-2 mt-2' : 'hidden'}`}>
-        <Link href="/" className="text-gray-800 hover:text-blue-500">Inicio</Link>
-        <Link href="/nosotros" className="text-gray-800 hover:text-blue-500">Nosotros</Link>
-        <Link href="/servicios" className="text-gray-800 hover:text-blue-500">Servicios</Link>
-        <Link href="/equipo" className="text-gray-800 hover:text-blue-500">Equipo</Link>
+        <Link href="/" className="text-gray-800 hover:text-blue-500">INICIO</Link>
+        <Link href="/servicios" className="text-gray-800 hover:text-blue-500">SERVICIOS</Link>
+        <Link href="/nosotros" className="text-gray-800 hover:text-blue-500">NOSOTROS</Link>
+        {/* <Link href="/equipo" className="text-gray-800 hover:text-blue-500">Equipo</Link> */}
         {/* <Link href="/formacion" className="text-gray-800 hover:text-blue-500">Formación</Link> */}
-        <Link href="/contacto" className="text-gray-800 hover:text-blue-500">Contacto</Link>
+        <Link href="/contacto" className="text-gray-800 hover:text-blue-500">CONTACTO</Link>
       </nav>
     </header>
     </main>
