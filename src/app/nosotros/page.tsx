@@ -28,6 +28,12 @@ export default function NosotrosPage() {
       </section> */}
 
       {/* Nuestra Historia */}
+
+
+{/* HACER QUE LA IMAGEN ESTE DE FONDO DE PANTALLA AL VER EN MODO CELULAR O TABLET */}
+
+
+
       <section className="py-16 px-4 max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/2">
